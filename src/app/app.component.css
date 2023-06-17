@@ -1,0 +1,11 @@
+.row {
+    display: flex;
+}
+.column-map {
+    flex: 75%;
+    background-color: aqua;
+}
+.column-description {
+    flex: 25%;
+    background-color: blueviolet;
+}
