@@ -3,9 +3,9 @@
 }
 .column-map {
     flex: 75%;
-    background-color: aqua;
+    background-color: slategray;
 }
 .column-description {
     flex: 25%;
-    background-color: blueviolet;
+    background-color: slategray;
 }

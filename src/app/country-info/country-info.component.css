@@ -1,0 +1,15 @@
+h2 {
+    text-align: center;
+    color: darkgrey;
+    margin: 10px;
+    border: thistle;
+    border-style: dotted;
+}
+ul {
+    border: thistle;
+    border-style: solid;
+}
+ul, li {
+    color: darkgrey;
+    margin: 5px;
+}
