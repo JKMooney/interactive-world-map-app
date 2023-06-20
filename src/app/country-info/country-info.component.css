@@ -1,15 +1,16 @@
-h2 {
+.countryInfoTitle {
+    font-size: 3vw;
     text-align: center;
     color: darkgrey;
     margin: 10px;
-    border: thistle;
-    border-style: dotted;
+    font-weight: bold;
 }
-ul {
-    border: thistle;
+ul, .countryInfoTitle {
+    border: darkslateblue;
     border-style: solid;
 }
 ul, li {
     color: darkgrey;
     margin: 5px;
+    font-size: 2vw;
 }

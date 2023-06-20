@@ -1,9 +1,9 @@
-<h2>Country Information:</h2>
+<div class="countryInfoTitle">Country Information:</div>
 <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>Country Name: {{ countryInfo?.name }}</li>
+    <li>Capital: {{ countryInfo?.capitalCity }}</li>
+    <li>Region: {{ countryInfo?.region?.value }}</li>
+    <li>Income Level: {{ countryInfo?.incomeLevel?.value }}</li>
+    <li>Longitude: {{ countryInfo?.longitude }}</li>
+    <li>Latitude: {{ countryInfo?.latitude }}</li>
 </ul>

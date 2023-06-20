@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { CountryInfo } from '../models/country-info';
 
 @Component({
   selector: 'app-country-info',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./country-info.component.css']
 })
 export class CountryInfoComponent {
-
+  @Input() countryInfo?: CountryInfo;
 }
