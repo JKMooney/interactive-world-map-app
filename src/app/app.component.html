@@ -1,4 +1,4 @@
 <div class="row">
-  <div class="column-map"><app-map></app-map></div>
-  <div class="column-description"><app-country-info></app-country-info></div>
+  <div class="column-map"><app-map (countryClicked)="onCountryClick($event)"></app-map></div>
+  <div class="column-description"><app-country-info [countryInfo]="selectedCountryInfo"></app-country-info></div>
 </div>
