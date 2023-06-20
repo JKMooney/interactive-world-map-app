@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-map',
@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./map.component.css']
 })
 export class MapComponent {
-
+  @Output() countryClicked = new EventEmitter<string>();
+  onMapClick(event: MouseEvent) {
+    this.countryClicked.emit((event.target as HTMLElement).id);
+      // console.log((event.target as HTMLElement).id);
+  }
 }
